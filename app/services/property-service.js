@@ -13,7 +13,7 @@ let prettifyProperty = (property) => {
         city: property.city__c,
         state: property.state__c,
         price: property.price__c,
-        priceFormatted: "$" + property.price__c.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","),
+        priceFormatted: "￥" + property.price__c.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","),
         beds: property.beds__c,
         baths: property.baths__c,
         description: property.description__c,
