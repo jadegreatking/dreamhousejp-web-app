@@ -30,10 +30,10 @@ class MyApp {
         this.platform = platform;
 
         this.pages = [
-            {title: 'Welcome', component: WelcomePage, icon: "bookmark"},
-            {title: 'Properties', component: PropertyListPage, icon: "home"},
-            {title: 'Brokers', component: BrokerListPage, icon: "people"},
-            {title: 'Favorites', component: FavoriteListPage, icon: "star"}
+            {title: 'ようこそ', component: WelcomePage, icon: "bookmark"},
+            {title: '物件を探す', component: PropertyListPage, icon: "home"},
+            {title: '担当者を探す', component: BrokerListPage, icon: "people"},
+            {title: 'お気に入り', component: FavoriteListPage, icon: "star"}
         ];
 
         this.rootPage = WelcomePage;
@@ -41,7 +41,7 @@ class MyApp {
     }
 
     initializeApp() {
-        
+
     }
 
     openPage(page) {

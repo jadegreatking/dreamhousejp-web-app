@@ -2,7 +2,7 @@
     <button menuToggle>
         <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Property</ion-title>
+    <ion-title>物件</ion-title>
 </ion-navbar>
 
 <ion-content class="property">
@@ -20,17 +20,17 @@
             <ion-list>
                 <ion-item>
                     <ion-icon item-left name="moon"></ion-icon>
-                    <h3>Bedrooms</h3>
+                    <h3>部屋</h3>
                     <ion-note item-right>{{property.beds}}</ion-note>
                 </ion-item>
                 <ion-item>
                     <ion-icon item-left name="analytics"></ion-icon>
-                    <h3>Bathrooms</h3>
+                    <h3>洗面所</h3>
                     <ion-note item-right>{{property.baths}}</ion-note>
                 </ion-item>
                 <ion-item>
                     <ion-icon item-left name="pricetag"></ion-icon>
-                    <h3>Asking Price</h3>
+                    <h3>提示価格</h3>
                     <ion-note item-right>{{property.priceFormatted}}</ion-note>
                 </ion-item>
                 <button ion-item (click)="showBroker($event, property.broker)">
@@ -45,19 +45,19 @@
                 <ion-col>
                     <button clear small (click)="favorite($event, property)">
                         <ion-icon name="star"></ion-icon>
-                        Favorite
+                        お気に入り
                     </button>
                 </ion-col>
                 <ion-col text-center>
                     <button clear small (click)="like($event, property)">
                         <ion-icon name="thumbs-up"></ion-icon>
-                        Like
+                        いいね
                     </button>
                 </ion-col>
                 <ion-col text-right>
                     <button clear small (click)="share($event, property)">
                         <ion-icon name="share-alt"></ion-icon>
-                        Share
+                        共有
                     </button>
                 </ion-col>
             </ion-row>

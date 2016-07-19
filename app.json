@@ -1,10 +1,10 @@
 {
-  "name": "dreamhouse-web-app",
+  "name": "dreamhousejp-web-app",
   "description": "DreamHouse Web App",
   "keywords": [
     "app-cloud"
   ],
-  "repository": "https://github.com/dreamhouseapp/dreamhouse-web-app",
+  "repository": "https://github.com/dreamhouseapp-jp/dreamhousejp-web-app",
   "addons": [
     "heroku-postgresql"
   ]

@@ -27,8 +27,8 @@ export class PropertyDetailsPage {
 
         this.propertyService.favorite(property).subscribe(() => {
             let alert = Alert.create({
-                title: 'Favorites',
-                subTitle: 'Property added to your favorites',
+                title: 'お気に入り',
+                subTitle: '物件をお気に入りに登録しました',
                 buttons: ['OK']
             });
             this.nav.present(alert);

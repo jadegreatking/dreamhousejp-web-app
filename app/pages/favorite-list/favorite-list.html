@@ -2,7 +2,7 @@
     <button menuToggle>
         <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Favorites</ion-title>
+    <ion-title>お気に入り</ion-title>
 </ion-navbar>
 
 <ion-content>
@@ -16,7 +16,7 @@
                 <p>{{favorite.property.city}}, {{favorite.property.state}} ∙ {{favorite.property.priceFormatted}}</p>
             </button>
             <ion-item-options>
-                <button danger (click)="deleteItem($event, favorite)">Delete</button>
+                <button danger (click)="deleteItem($event, favorite)">削除</button>
             </ion-item-options>
         </ion-item-sliding>
     </ion-list>
