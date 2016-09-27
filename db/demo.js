@@ -60,6 +60,6 @@ module.exports = function(client) {
   client.query(`INSERT INTO property__c (name, thumbnail__c, beds__c, location__longitude__s, address__c, baths__c, broker__c, description__c, sfid, state__c, city__c, zip__c, title__c, picture__c, price__c, location__latitude__s) VALUES ( '北品川1丁目2番7号','https://static.dreamhouseappjp.io/images/dreamhousejp-exterior5.jpg',3,'139.739612','北品川1丁目2番7号',1,'a002800000mD4SDAA0','品川地区で人気のシティリビングシリーズです。','a032800000H51NuAAJ','東京都','品川','1420052','シティリビング','https://static.dreamhouseappjp.io/images/dreamhousejp-exterior5.jpg',45000000,35.622558 );`);
   client.query(`INSERT INTO property__c (name, thumbnail__c, beds__c, location__longitude__s, address__c, baths__c, broker__c, description__c, sfid, state__c, city__c, zip__c, title__c, picture__c, price__c, location__latitude__s) VALUES ( '南品川6丁目4号','https://static.dreamhouseappjp.io/images/dreamhousejp-interior2.jpg',2,'139.738228','南品川6丁目4号',2,'a002800000mD4S8AAK','人気のシティリビングが品川にも登場','a032800000H51NpAAJ','東京都','品川','1420052','シティリビング','https://static.dreamhouseappjp.io/images/dreamhousejp-interior2.jpg',65000000,35.611609 );`);
 
-  client.query(`INSERT INTO favorite__c (property__c, sfid) VALUES ('a0236000002NHKoAAO', 'a0136000003SsewAAC');`);
+  client.query(`INSERT INTO favorite__c (property__c, sfid) VALUES ('a032800000H51NkAAJ', 'a002800000mD4SEAA0');`);
 
 };
