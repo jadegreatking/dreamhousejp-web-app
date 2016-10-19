@@ -2,10 +2,17 @@
   "name": "dreamhousejp-web-app",
   "description": "DreamHouse Web App",
   "keywords": [
-    "app-cloud"
+    "app-cloud",
+    "Salesforce",
+    "DreamHouse",
+    "DreamHouseJP",
+    "Node.js",
+    "demo"
   ],
+  "website": "http://www.dreamhouseappjp.io/",
   "repository": "https://github.com/dreamhouseapp-jp/dreamhousejp-web-app",
   "addons": [
-    "heroku-postgresql"
+    "heroku-postgresql",
+    "herokuconnect"
   ]
 }
