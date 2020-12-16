@@ -4,6 +4,7 @@ import {App, Platform} from 'ionic-angular';
 
 import {WelcomePage} from './pages/welcome/welcome';
 import {PropertyListPage} from './pages/property-list/property-list';
+import {MansionPage} from './pages/mansion/mansion';
 import {BrokerListPage} from './pages/broker-list/broker-list';
 import {FavoriteListPage} from './pages/favorite-list/favorite-list';
 import {PropertyService} from './services/property-service';
@@ -30,18 +31,19 @@ class MyApp {
         this.platform = platform;
 
         this.pages = [
-            {title: 'ようこそ', component: WelcomePage, icon: "bookmark"},
-            {title: '物件を探す', component: PropertyListPage, icon: "home"},
-            {title: '担当者を探す', component: BrokerListPage, icon: "people"},
-            {title: 'お気に入り', component: FavoriteListPage, icon: "star"}
+            {title: 'Welcome', component: WelcomePage, icon: "bookmark"},
+            {title: 'Properties', component: PropertyListPage, icon: "home"},
+            {title: 'Brokers', component: BrokerListPage, icon: "people"},
+            {title: 'Favorites', component: FavoriteListPage, icon: "star"},
+            {title: 'Mansion', component: MansionPage, icon: "home"},
         ];
 
-        this.rootPage = WelcomePage;
+        this.rootPage = PropertyListPage;
         this.initializeApp();
     }
 
     initializeApp() {
-
+        
     }
 
     openPage(page) {
