@@ -22,7 +22,7 @@ DreamHouse Web アプリ
 
 Heroku で実行：
 
-1. [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/dreamhouseapp-jp/dreamhousejp-web-app)
+1. [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jadegreatking/dreamhousejp-web-app)
 1. アプリを確認します。
 `http://<アプリ名>.herokuapp.com`
 
